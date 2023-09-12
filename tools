@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Install WireShark
+echo "Installing WireShark..."
+# sudo apt install wireshark
+
+# Install Metasploit
+echo "Installing Metasploit..."
+# curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+  chmod 755 msfinstall && \
+  ./msfinstall
+
+#Install SqlMap
+echo "Installing SqlMap..."
+# git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+
+#Install suricata
+echo "Installing suricata..."
+# sudo add-apt-repository ppa:oisf/suricata-stable
+# sudo apt install suricata
+
+#Install SqlMap
+echo "Installing Snort..."
+# sudo apt install snort
